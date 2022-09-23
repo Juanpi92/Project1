@@ -1,0 +1,43 @@
+#mensaje{
+resize: none;    
+}
+label{
+display: block;
+}
+form div{
+    margin: 20px 4.7%;
+    box-sizing: border-box;
+    width: 40%;
+    display: inline-block;
+}
+input[type=text],input[type=email],input[type=number], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+.boton{
+border-radius: 5px;
+font-size: 1.2em; 
+background-color: #8758ff;
+padding: 12px 20px;
+border: none;
+margin: 5px 10px;
+margin-left: 4.8%;
+cursor: pointer;
+}
+.boton:hover{
+    box-shadow: 0px 0px 5px #5cb9e4; 
+}
+form{
+margin: 20px 10%;
+box-sizing: border-box;
+border: 2px dashed #5cb9e4;
+}
+
+
